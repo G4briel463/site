@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#ping-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* add some space between button and image */
+}
+
+#ping-button:hover {
+    background-color: #3e8e41;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: block; /* make the image a block element */
+    margin: 0 auto; /* center the image horizontally */
+}
